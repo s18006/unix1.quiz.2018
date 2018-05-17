@@ -1,4 +1,1 @@
-ls c???
-ls -aF c???
-../../../bin/chvt
-../../../bin/cpio
+ls ../../../../bin/c???
