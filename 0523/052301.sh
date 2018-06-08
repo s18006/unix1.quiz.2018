@@ -1,2 +1,3 @@
 #!/bin/bash
-ls / | wc -l
+
+sudo find ~ -type f | wc -l

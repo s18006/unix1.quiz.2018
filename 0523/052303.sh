@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo du -b ~/* | sort -n | head -n 5
 
+sudo find ~ -type f | xargs sudo du -b | sort -n | head -n 5
