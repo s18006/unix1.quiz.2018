@@ -14,7 +14,8 @@ for file in $(find ~ -type f); do
     ((d++))
 done
 
-echo $d
-echo $c
+echo "ファイルの数は $d　個です。"
+echo "ディレクトリの数は $c　個です。"
+
 
 IFS=$_IFS
