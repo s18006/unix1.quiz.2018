@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#the question is in Unix site (https://www.unix.com/shell-programming-and-scripting/278776-newbie-need-help.html)
 echo "please enter your next birthday!"
 echo -n year_yyyy
 read year_yyyy
