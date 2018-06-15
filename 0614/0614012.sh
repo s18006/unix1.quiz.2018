@@ -1,8 +1,7 @@
 #!/bin/bash
 
 
-echo "Enter the year (YYYY)"
-read year
+year=$1
 
 if [ $((year % 4)) -eq 0 ]; then
   if [ $((year % 100)) -eq 0 ]; then

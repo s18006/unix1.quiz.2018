@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Enter the year (YYYY)"
-read year
+year=$1
 
 if date -d "29 feb $year" >/dev/null 2>&1
 then
