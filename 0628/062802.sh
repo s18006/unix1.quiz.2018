@@ -7,9 +7,6 @@ $(basename ${0}) is a tool for find the five largest files in a chosen directory
 Usage:
     $(basename ${0}) [directory name] 
 
-Options:
-    --version, -v     print $(basename ${0}) version
-    --help, -h        print this
 EOF
 }
 
